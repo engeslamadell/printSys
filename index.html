@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Print</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="drag-items-container">
+        <div
+          id="draggable"
+          class="ui-widget-content containeredit draggable-container draggable"
+          contenteditable="true"
+        >
+          <p class="ui-widget-content" contenteditable="true">
+            Label
+          </p>
+        </div>
+
+        <div class="draggable">
+          <img
+            style="width: 90px; height: 90px;"
+            src="./icon.png"
+            alt="dl;fksdl;"
+            class="ui-widget-content draggable"
+          />
+        </div>
+      </div>
+      <div class="drop-container">
+        <div id="container" class="ui-widget-content drobbable-container"></div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
